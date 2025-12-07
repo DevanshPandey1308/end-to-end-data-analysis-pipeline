@@ -8,7 +8,9 @@ It reflects industry-level practices for turning raw datasets into actionable in
 Kaggle API → Python Preprocessing → MySQL Analysis → Python Visualizations → Insights
 
 
-## 📂 Repository Structure:
+## 📂 Repository Structure
+
+<pre>
 ├── data/
 │   └── orders.csv
 │
@@ -22,6 +24,8 @@ Kaggle API → Python Preprocessing → MySQL Analysis → Python Visualizations
 │   └── (4 visualizations exported as PNG)
 │
 └── README.md
+</pre>
+
 
 
 ## 📊 Dataset Overview:
