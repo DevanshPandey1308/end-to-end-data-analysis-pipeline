@@ -4,8 +4,10 @@ This project demonstrates a complete data analysis workflow, beginning with **da
 It reflects industry-level practices for turning raw datasets into actionable insights using a structured pipeline.
 
 
+
 ## 🧱 Project Workflow:
 Kaggle API → Python Preprocessing → MySQL Analysis → Python Visualizations → Insights
+
 
 
 ## 📂 Repository Structure
@@ -35,6 +37,7 @@ Type: E-commerce transaction dataset
 Key Columns: order ID, order date, customer details, product info, order amount, category, quantity
 
 
+
 ## ⚙️ Technologies Used:
 •Python
 -Pandas
@@ -53,6 +56,8 @@ Other Tools
 -Jupyter Notebook
 -MySQL Workbench
 
+
+
 ### 🧹 1. Data Preprocessing (Python)
 Performed extensive preprocessing using Pandas and NumPy:
 -Null handling
@@ -62,6 +67,7 @@ Performed extensive preprocessing using Pandas and NumPy:
 -Basic descriptive statistics
 
 The cleaned dataset was exported for SQL-based analytical exploration.
+
 
 ### 🗄️ 2. SQL Analytical Queries
 The sql/analytical_queries.sql file contains:
@@ -96,6 +102,7 @@ Visualizations help validate SQL patterns and communicate insights effectively.
 -Customer purchase patterns show repeat-purchase tendencies
 
 
+
 ### ▶️ How to Run This Project
 1. Clone the repository
 git clone https://github.com/yourusername/end-to-end-data-analysis-pipeline.git
@@ -107,11 +114,13 @@ Open analysis.ipynb in Jupyter Notebook.
 Import orders.csv into MySQL and run queries in analytical_queries.sql.
 
 
+
 ### 🧭 Future Improvements
 -Add more advanced SQL modeling
 -Implement automated ETL script for end-to-end refresh
 -Add dashboard (Power BI / Tableau)
 -Expand dataset to increase analytical depth
+
 
 
 ### 📝 Conclusion
